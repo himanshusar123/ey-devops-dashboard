@@ -1,0 +1,27 @@
+{
+  "name": "ey-devops-dashboard",
+  "version": "1.0.0",
+  "description": "Enterprise IT Operations & Compliance Dashboard for EY DevOps Demo",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/**/*.test.js",
+    "lint": "node scripts/lint.js"
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "github-actions",
+    "docker",
+    "ghcr",
+    "compliance",
+    "ey"
+  ],
+  "author": "EY IT Engineering Demo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
