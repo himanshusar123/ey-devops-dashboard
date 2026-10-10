@@ -93,7 +93,7 @@ export function getSystemMetrics() {
       gitCommitSha: process.env.GIT_COMMIT_SHA || process.env.GITHUB_SHA || "e7f41a9",
       gitBranch: process.env.GIT_BRANCH || process.env.GITHUB_REF_NAME || "main",
       workflowRunId: process.env.GITHUB_RUN_ID || "138947201",
-      containerRegistry: "ghcr.io/ey-consulting/devops-dashboard",
+      containerRegistry: "ghcr.io/himanshusar123/ey-devops-dashboard",
       imageTag: process.env.IMAGE_TAG || "v1.0.0-release",
       pipelineStatus: incidentSimulationActive ? "DEGRADED" : "HEALTHY"
     }

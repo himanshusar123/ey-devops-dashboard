@@ -95,7 +95,7 @@ git commit -m "feat: Initial commit for EY DevOps Demo Platform"
 2. Link and push your local repository:
 ```bash
 git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/ey-devops-dashboard.git
+git remote add origin https://github.com/himanshusar123/ey-devops-dashboard.git
 git push -u origin main
 ```
 
@@ -104,7 +104,7 @@ git push -u origin main
 2. Watch both workflow jobs run in real time:
    - `🛡️ Code Quality & Automated Tests`
    - `🐳 Docker Multi-Stage Build & GHCR Release`
-3. View the generated container package under your GitHub profile/organization **Packages** (`ghcr.io/<YOUR_GITHUB_USERNAME>/ey-devops-dashboard`).
+3. View the generated container package under your GitHub profile/organization **Packages** (`ghcr.io/himanshusar123/ey-devops-dashboard`).
 4. Read the **Deployment Summary** generated automatically in the workflow run overview.
 
 ---

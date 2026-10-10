@@ -106,7 +106,7 @@ export function createApp() {
   app.get('/api/pipeline', (req, res) => {
     res.json({
       project: 'EY Enterprise IT Operations & Compliance Dashboard',
-      repository: 'https://github.com/ey-consulting/devops-dashboard',
+      repository: 'https://github.com/himanshusar123/ey-devops-dashboard',
       ciCdEngine: 'GitHub Actions',
       containerRegistry: 'GitHub Container Registry (ghcr.io)',
       stages: [
